@@ -390,10 +390,10 @@ base@^0.11.1:
   version "1.0.0"
   dependencies:
     "@polymer/polymer" "^3.0.0"
-    bbmChatHeader "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-hat-1.0.0-ef26e427-3a60-4586-9b4d-6410f8eb0367-1575907502186/node_modules/bbmChatHeader"
-    bbmChatInput "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-hat-1.0.0-ef26e427-3a60-4586-9b4d-6410f8eb0367-1575907502186/node_modules/bbmChatInput"
-    bbmChatTypingNotification "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-hat-1.0.0-ef26e427-3a60-4586-9b4d-6410f8eb0367-1575907502186/node_modules/bbmChatTypingNotification"
-    bbmRichChatMessageList "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-hat-1.0.0-ef26e427-3a60-4586-9b4d-6410f8eb0367-1575907502186/node_modules/bbmRichChatMessageList"
+    bbmChatHeader "file:../support/ui/widgets/bbmChatHeader"
+    bbmChatInput "file:../support/ui/widgets/bbmChatInput"
+    bbmChatTypingNotification "file:../support/ui/widgets/bbmChatTypingNotification"
+    bbmRichChatMessageList "file:../support/ui/widgets/bbmRichChatMessageList"
 
 "bbmChatHeader@file:../support/ui/widgets/bbmChatHeader":
   version "1.0.0"
@@ -404,7 +404,7 @@ base@^0.11.1:
   version "1.0.0"
   dependencies:
     "@polymer/polymer" "^3.0.0"
-    util "file:../../../../../../Library/Caches/Yarn/v4/util"
+    util "file:../support/util"
 
 "bbmChatMessageList@file:../support/ui/widgets/bbmChatMessageList":
   version "1.0.0"
@@ -429,9 +429,9 @@ base@^0.11.1:
   version "1.0.0"
   dependencies:
     "@polymer/polymer" "^3.0.0"
-    bbmChatMessageList "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-ich-hat-essage-ist-1.0.0-94f92ea1-197f-4ba9-b68b-79011c875c58-1575907502191/node_modules/bbmChatMessageList"
-    bbmChatMessageStateList "file:../../../../../../Library/Caches/Yarn/v4/npm-bbm-ich-hat-essage-ist-1.0.0-94f92ea1-197f-4ba9-b68b-79011c875c58-1575907502191/node_modules/bbmChatMessageStateList"
-    util "file:../../../../../../Library/Caches/Yarn/v4/util"
+    bbmChatMessageList "file:../support/ui/widgets/bbmChatMessageList"
+    bbmChatMessageStateList "file:../support/ui/widgets/bbmChatMessageStateList"
+    util "file:../support/util"
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -3030,9 +3030,9 @@ yallist@^3.0.0, yallist@^3.0.2, yallist@^3.0.3:
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
 
 yargs-parser@^13.1.0:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.1.tgz#d26058532aa06d365fe091f6a1fc06b2f7e5eca0"
-  integrity sha512-oVAVsHz6uFrg3XQheFII8ESO2ssAf9luWuAd6Wexsu4F3OtIW0o8IribPXYrD4WC24LWtPrJlGy87y5udK+dxQ==
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.2.tgz#130f09702ebaeef2650d54ce6e3e5706f7a4fb38"
+  integrity sha512-3lbsNRf/j+A4QuSZfDRA7HRSfWrzO0YjqTJd5kjAq37Zep1CEgaYmrH9Q3GwPiB9cHyd1Y1UwggGhJGoxipbzg==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
